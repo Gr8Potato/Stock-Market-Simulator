@@ -1,0 +1,182 @@
+html, body{
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  display: block;
+  border: 3px !important;
+  border-color: #000;
+  z-index: 9;
+}
+
+#form-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: #fff;
+  border-radius: 5px;
+  border-color: #000;
+  box-shadow: 0 0 10px #1db954;
+}
+
+form {
+  display: block;
+  margin-bottom: 30px;
+}
+
+label {
+  display: block;
+  font-size: 22px;
+  margin-bottom: -20px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-color: #1db954;
+  font-size: 16px;
+  margin-bottom: 25px;
+  border: 1px solid #1db954;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  display: block;
+  margin: 0 auto;
+  width: 65%;
+  height: 45px;
+  padding: 10px 0;
+  background-color: #1db954;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #ffffff;
+  transition: 0.3s;
+}
+
+button[type="submit"]:hover{
+  background-color: #000;
+  color: white;
+}
+
+#toggle-form-btn {
+  display: block;
+  margin-top: 20px;
+  font-size: 16px;
+  color: #333;
+  text-decoration: underline;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#toggle-form-btn:hover{
+  color: #000;
+}
+
+
+
+h1 {
+  text-align: center;
+  margin-top: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  color: #000000;
+  font-size: 60px;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 28px;
+  font-weight: 400;
+}
+
+h3{
+  text-align: center;
+  margin-top: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: normal;
+  color: #000000;
+  font-size: xx-large;
+  letter-spacing: -3px;
+}
+
+h4{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: normal;
+  color: #000000;
+  font-size: 15px;
+}
+
+h4.link{
+  color: #57F287;
+}
+
+h5{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 1000;
+  color: #3e8e41;
+}
+
+
+::-webkit-input-placeholder {
+  /* Change the font family and size */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #3e8e41;
+
+}
+
+:-moz-placeholder {
+  /* Change the font family and size */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #3e8e41;
+
+}
+
+::-moz-placeholder {
+  /* Change the font family and size */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #3e8e41;
+
+}
+
+:-ms-input-placeholder {
+  /* Change the font family and size */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #3e8e41;
+
+}
+
+#toggle-form-btn {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #57F287;
+
+}
+
+#login-form {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #1db954;
+
+}
+
+#register-form {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #3e8e41;
+
+}
+
+.icon {
+  height: 20px;
+  width: 20px;
+  display: block;
+}
